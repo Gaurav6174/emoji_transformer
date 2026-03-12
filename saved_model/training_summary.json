@@ -1,0 +1,19 @@
+{
+  "final_train_loss": 2.3682355880737305,
+  "final_train_accuracy": 0.18444444239139557,
+  "final_val_loss": 2.9686906337738037,
+  "final_val_accuracy": 0.1111999973654747,
+  "best_val_accuracy": 0.16500000655651093,
+  "best_epoch": 6,
+  "total_epochs_run": 20,
+  "config": {
+    "VOCAB_SIZE": 20000,
+    "MAX_SEQ_LEN": 50,
+    "EMBED_DIM": 128,
+    "NUM_HEADS": 4,
+    "FF_DIM": 256,
+    "NUM_BLOCKS": 2,
+    "BATCH_SIZE": 64,
+    "LEARNING_RATE": 0.0001
+  }
+}

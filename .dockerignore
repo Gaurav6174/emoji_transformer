@@ -1,0 +1,51 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Version control ───────────────────────────────────────────────────────────
+.git/
+.gitignore
+.gitattributes
+
+# ── Large training-only data arrays (keep word2idx.json) ─────────────────────
+saved_data/*.npy
+
+# ── Jupyter / notebooks ───────────────────────────────────────────────────────
+*.ipynb
+.ipynb_checkpoints/
+
+# ── OS artefacts ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Editor / IDE ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Test / CI ─────────────────────────────────────────────────────────────────
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Logs (keep saved_model/logs only if you want TensorBoard inside container)
+# saved_model/logs/
+
+# ── Docs ──────────────────────────────────────────────────────────────────────
+docs/
+*.md
+!README.md
